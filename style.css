@@ -1,0 +1,54 @@
+li{
+    list-style-type: discc;
+    color:khaki;
+}
+
+li li{
+    color:burlywood;
+}
+
+
+p{
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    font-style:normal;
+    font-weight: 100;
+    text-align:justify;
+    text-transform:capitalize;
+    text-decoration:underline;
+    line-height: 30px;
+    text-shadow:0 0 2px blue;
+    
+}
+
+body{
+    font-size:20px; /*2em means 2times of parent element*/
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:5px 400px;
+    background-size:contain;
+    background-image:url("1123_STD_Music_Feature_1-696x313.jpg")
+}
+ul{
+    list-style:circle inside;
+}
+
+.small{
+    background-color:rgb(178, 182, 57);
+    margin:20px 50px 30px 60px;/*(top right bottom left)*/
+    padding: 20px 50px 30px 60px;
+    border: 5px solid rgb(155, 155, 160);
+    width: 200px;
+    height:10px;
+    overflow:scroll;
+}
+
+.ok{
+    background-color:rgba(5, 43, 58, 0.774);
+}
+
+h1{
+   border: 2px solid grey;
+   padding:20px;/*( padding-->part(space) of inside box)*/
+}
